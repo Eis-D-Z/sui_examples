@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "module": "ESNext"
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "files": [
+        "src/connect.js",
+        "src/main.js",
+        "src/transaction.js"
+    ]
+}

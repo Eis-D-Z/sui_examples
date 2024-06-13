@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@mysten/sui": "^1.0.5",
+    "@mysten/wallet-standard": "^0.12.5",
+    "@mysten/zksend": "^0.9.5"
+  },
+  "devDependencies": {
+    "vite": "^5.2.12"
+  },
+  "scripts": {
+    "dev": "vite"
+  }
+}
