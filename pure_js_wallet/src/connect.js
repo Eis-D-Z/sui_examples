@@ -6,7 +6,7 @@ registerStashedWallet('Demo App Pure Html', {origin: "https://getstashed.com"});
 let wallets = getWallets().get();
 export const store = {currentWallet: ""};
 export const listener = async (wallet) => {
-    const res = await store.currentWallet.features["standard:connect"].connect();
+    const res = await wallet.features["standard:connect"].connect();
     console.log(res);
     store.currentWallet = wallet;
 }

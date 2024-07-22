@@ -21,4 +21,4 @@ wallets.forEach(wallet => {
     itemDiv.appendChild(name);
     container.appendChild(itemDiv);
 
-})
+});
